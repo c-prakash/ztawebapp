@@ -22,12 +22,12 @@ set -e  # Exit on any error
 # Basic settings
 RESOURCE_GROUP="zta-rg"
 LOCATION="East US"
-SUBSCRIPTION_ID="85187b13-2f0f-4da1-a3d6-b9b687c69171"  # Leave empty to use default subscription
+SUBSCRIPTION_ID="[Subscription ID]"  # Leave empty to use default subscription
 
 # Domain and certificate settings - CRITICAL: You MUST have these ready
-DOMAIN_NAME="drcprakash.com"  # Replace with your actual domain
-CERT_FILE_PATH="/Users/avneeshsisodia/workspace-vscode/ZTA-Project/drcprakash.pfx"  # Path to your wildcard certificate
-CERT_PASSWORD="dummy#123"  # Certificate password
+DOMAIN_NAME="[Public Domain Name]"  # Replace with your actual domain
+CERT_FILE_PATH="[Cert file path - PFX Only]"  # Path to your wildcard certificate
+CERT_PASSWORD="[Cert Password]"  # Certificate password
 
 # Resource naming (you can customize these)
 KEY_VAULT_NAME="drcpZTAKeyVault-1"  # Appending timestamp for uniqueness
